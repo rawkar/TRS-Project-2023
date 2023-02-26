@@ -1,0 +1,79 @@
+@media (min-width: 768px) {
+    .navbar-brand.abs
+        {
+            position: absolute;
+            width: auto;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+        }
+    }
+
+    .logo {
+
+
+margin-left: 5%;
+
+    }
+
+    .btn {
+
+        margin-right: 5%;
+       
+
+    }
+
+    .nav-item,
+    .nav-link  {
+        color: rgb(30, 46, 94) !important;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size: 24px !important;
+    font-style: bold;
+
+  }
+    .login {
+
+        background-color: rgb(30, 46, 94);
+        color: white;
+        border-radius: 15px;
+        width: 130px;
+        height: 50px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .login:hover {
+ background-color: rgb(214, 119, 39);
+      color: white;
+    }
+
+    
+
+    .search {
+
+        background-color: rgb(214, 119, 39); 
+        color: white;
+        border-radius: 15px;
+        width: 60px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .search:hover {
+ background-color: rgb(30, 46, 94);
+      color: white;
+    }
+
+
+    .navbar-nav > li{
+        padding-left:30px;
+        padding-right:40px;
+      }
+
+      /* .navbar-brand {
+        padding-left:50px;
+        padding-right:50px;
+      } */
+
+      .navbar-nav{
+
+        margin-right: 3% !important;
+      }
